@@ -4,9 +4,9 @@
 PYTHON = python3
 
 # Statistics
-N = 1
-M = 50000
-E = 1
+N = 100
+M = 10000
+E = 1e-3
 
 # Build tools and options
 GCC = gcc

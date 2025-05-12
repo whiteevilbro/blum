@@ -98,5 +98,6 @@ int main(void) {
     else
       printf("Officer, I've never seen him in my life\n");
   }
+  // fprintf(stderr, "\n\n%zu\n%lf\n\n\n", f.hashes.size, e);
   return 0;
 }

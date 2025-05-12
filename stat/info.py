@@ -18,7 +18,7 @@ with open(name, 'r', encoding='utf8') as file:
 
 print("="*25)
 print(f'Filter element count: {N}')
-print(f'Search queries: {M}')
+print(f'Patently false search queries: {M}')
 print(f'Desired error: {e}')
 
 print(f'Error (false positive) count: {err}')

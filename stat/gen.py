@@ -21,8 +21,8 @@ n = l[:N]
 m = l[N:]
 
 with open(name, 'w', encoding='utf8') as file:
-    file.write(f"{N} 1e-3\n")
-    # file.write(f"{N}\n")
+    file.write(f"{N} {e}\n")
+
     for i in n:
         file.write(f"{i}\n")
     file.write(f"\n{M}\n\n")
