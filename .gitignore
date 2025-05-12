@@ -1,0 +1,6 @@
+.vscode
+*actual.txt
+main-32
+main-64
+stat/input.txt
+stat/output.txt
